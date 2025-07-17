@@ -20,11 +20,11 @@ export default function DefaultLayout({
         <Link
           isExternal
           className="flex items-center gap-1 text-current"
-          href="https://www.heroui.com"
-          title="heroui.com homepage"
+          href="https://github.com/Guichardx2"
+          title="portalVagas.com homepage"
         >
-          <span className="text-default-600">Powered by</span>
-          <p className="text-primary">HeroUI</p>
+          <span className="text-default-600">Feito por</span>
+          <p className="text-primary">Guichard</p>
         </Link>
       </footer>
     </div>

@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
+  name: "Portal Vagas",
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
@@ -9,19 +9,19 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Encontrar Vagas",
+      href: "/jobs",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Empresa",
+      href: "/company",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Criar CV",
+      href: "/create-resume",
     },
     {
-      label: "About",
+      label: "Sobre",
       href: "/about",
     },
   ],
