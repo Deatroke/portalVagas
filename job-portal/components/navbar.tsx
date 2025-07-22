@@ -34,15 +34,15 @@ export const Navbar = () => {
 
   return (
     <HeroUINavbar
-      maxWidth="xl"
+      maxWidth="full"
       position="sticky"
-      className="bg-transparent backdrop-blur-md bg-opacity-60 rounded-lg shadow-lg w-full lg:w-[80%] xl:w-[70%] mx-auto z-50 mt-4"
+      className="fixed bg-transparent backdrop-blur-md bg-opacity-60 rounded-lg shadow-lg w-full lg:w-[80%] xl:w-[70%] mx-auto z-50 mt-4"
     >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
             <Logo />
-            <p className="font-bold text-inherit">Portal Vagas</p>
+            <p className="font-bold text-inherit">TALENT HUB</p>
           </NextLink>
         </NavbarBrand>
         <div className="hidden lg:flex gap-4 justify-start ml-8">
