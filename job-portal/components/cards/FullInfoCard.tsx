@@ -22,7 +22,7 @@ export default function FullInfoCard() {
           <p className="text-small text-default-500">HeroUI</p>
           <p className="text-lg">Web Designer</p>
 
-          <div className="flex items-center gap-2 mt-2">
+          <div className="mt-2 flex items-center gap-2">
             <Chip variant="flat" color="primary" radius="sm">
               Figma
             </Chip>
@@ -36,30 +36,27 @@ export default function FullInfoCard() {
         </div>
       </CardHeader>
       <CardBody>
-        <div className="flex justify-between align-middle">
-          <div className="flex items-center gap-2">
-            <Image alt="Location" height={30} src={location.src} width={30} />
-            <p className="text-small text-default-500">Michigan, USA</p>
-          </div>
+        <div className="flex items-center gap-2">
+          <Image alt="Location" height={30} src={location.src} width={30} />
+          <p className="text-small text-default-500">Michigan, USA</p>
+        </div>
+        <div className="flex justify-between align-middle mt-1">
+          <p className="text-small text-default-500">R$ 10.000 - 12.000</p>
           <p className="text-small text-default-500">1h atrás</p>
         </div>
       </CardBody>
       <Divider />
       <CardFooter className="flex justify-between">
-          <Link
-            isExternal
-            showAnchorIcon
-            href="https://github.com/heroui-inc/heroui"
-          >
-            Ver vaga
-          </Link>
-          <Button
-            variant="flat"
-            isIconOnly
-          >
-            <BookmarkIconOutline />
-          </Button>
-        
+        <Link
+          isExternal
+          showAnchorIcon
+          href="https://github.com/heroui-inc/heroui"
+        >
+          Ver vaga
+        </Link>
+        <Button variant="flat" isIconOnly>
+          <BookmarkIconOutline />
+        </Button>
       </CardFooter>
     </Card>
   );
